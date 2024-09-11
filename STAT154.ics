@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Your Organization//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:STAT154-001-LEC001@university.edu
+SUMMARY:STAT 154 001 - LEC 001
+DESCRIPTION:Modern Statistical Prediction and Machine Learning\nInstructor: Song Mei\nCourse Catalog: Theory and practice of statistical prediction. Contemporary methods as extensions of classical methods. Topics: optimal prediction rules, empirical risk, linear regression and classification, support vector machines. Python is the primary computing language.\nRequisites: Mathematics 53, 54, and more (see catalog for details)
+DTSTART;TZID=America/Los_Angeles:20240828T093000
+DTEND;TZID=America/Los_Angeles:20240828T105900
+RRULE:FREQ=WEEKLY;UNTIL=20241213T235900;BYDAY=TU,TH
+LOCATION:Etcheverry 3108
+CLASS:PUBLIC
+STATUS:CONFIRMED
+ORGANIZER;CN=Song Mei:MAILTO:songmei@university.edu
+SEQUENCE:0
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
